@@ -1,16 +1,34 @@
-### Hi there 👋
+```javascript
+class Aedotris {}
 
-<!--
-**levinhkhangzz/levinhkhangzz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Attributes extends Aedotris {
+    get contact() {
+        const discord = "aedotris";
+        const telegram = "t.me/A3d0tr1sX";
+        const facebook = "fb.com/junaidgull.gull.3";
+        const email = "contact@levinhkhang.org";
 
-Here are some ideas to get you started:
+        return [discord, telegram, facebook, email];
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    get life() {
+        const langs = ['Vietnamese', 'English'];
+        const age = 16;
+
+        return [langs, age];
+    }
+
+    get coding() {
+        const langs = {
+            'expert': ['python', 'typescript', 'html', 'css'],
+            // thêm mục framework của javascript càng nhiều càng tốt
+            'intermediate': ['go', 'js', 'React.js', 'Angular.js', 'Vue.js', 'Node.js', 'Express.js', 'Next.js', 'Nest.js', 'Svelte.js', 'Meteor.js', 'Ember.js', 'Backbone.js'],
+            'learning': ['c', 'c++', 'c#', 'asm', 'java']
+        };
+        const specialities = ['web/app reverse engineering', 'fullstack'];
+        const environnement = ['vscode'];
+
+        return [langs, specialities, environnement];
+    }
+}
+```
