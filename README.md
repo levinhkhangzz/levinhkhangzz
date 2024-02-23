@@ -21,7 +21,6 @@ class Attributes extends Aedotris {
     get coding() {
         const langs = {
             'expert': ['python', 'typescript', 'html', 'css'],
-            // thêm mục framework của javascript càng nhiều càng tốt
             'intermediate': ['go', 'js', 'React.js', 'Angular.js', 'Vue.js', 'Node.js', 'Express.js', 'Next.js', 'Nest.js', 'Svelte.js', 'Meteor.js', 'Ember.js', 'Backbone.js'],
             'learning': ['c', 'c++', 'c#', 'asm', 'java']
         };
