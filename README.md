@@ -12,10 +12,10 @@ class Attributes extends Aedotris {
     }
 
     get life() {
-        const langs = ['Vietnamese', 'English'];
+        const language = ['Vietnamese', 'English'];
         const age = 16;
 
-        return [langs, age];
+        return [language, age];
     }
 
     get coding() {
